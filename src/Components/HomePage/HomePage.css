@@ -1,0 +1,48 @@
+header.header,
+footer.footer {
+  background-color: #fbd062;
+  position: relative;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .active > .nav-link {
+  border-bottom: 2px solid #7ab259;
+}
+header.header::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-left: 99vw solid #fbd062;
+  border-top: 0 solid #fbd062;
+  border-right: 0 solid transparent;
+  border-bottom: 120px solid transparent;
+  overflow: hidden;
+}
+.brand-logo {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.brand-logo img {
+  height: 36px;
+  width: auto;
+}
+.service-section,
+.feedback-section {
+  margin: 150px auto;
+}
+.service-item {
+  transition: 0.3s;
+}
+.service-item:hover {
+  background: #ffffff;
+  box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.service-item a,
+.service-item a:hover {
+  text-decoration: none;
+  color: #000;
+}
+.brand-color {
+  color: #7ab259;
+}

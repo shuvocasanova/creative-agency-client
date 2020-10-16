@@ -1,0 +1,19 @@
+.custom-file input {
+  visibility: hidden;
+}
+
+.custom-file label {
+  border: 1px solid #009444;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  padding-left: 100px;
+  width: 100%;
+  max-width: 300px;
+  background-color: #deffed;
+  color: #009444;
+  background-image: url("https://i.ibb.co/ThXVB4J/upload.png");
+  background-position: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
